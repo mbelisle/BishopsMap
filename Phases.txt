@@ -1,0 +1,10 @@
+Phases:
+
+Phase 0: Photoshop all the images of the floor plans to our liking: bathrooms and stairwells are labeled, and rooms are clearly indicated in the floor plan.
+Phase 1: Start with a main menu and implement user input
+Phase 2: Get the images of the floors working in a slideshow fashion. At this phase we’ll have dots at the bottom of the screen for each “slide” and roomIDs displaying. The dots and roomIDs should rotate when the user rotates their device.
+Phase 3: Implement back button to get back to main menu
+Phase 4: Setting up rooms and their IDs as the letter of the building number and room number (i.e. J118), and a boolean for active (active being true when the room is selected as a start or end point). Here we implement all the stairwell stuff that’s like room -> the ID will be S[floor][ID] where ID is a number we attribute to each stairwell. So for example, the main stairwell in Johnson could be S01 from the basement, and S32 could be the stairwell in Hamilton, on the third floor. Here we could maybe think about making elevators a special case of stairwell... 
+Phase 5: Setting up the floor paths and the room paths -> in layman's terms: drawing all the dotted lines on each floor and being able to toggle them on or off. 
+Phase 6: Implementing the directions from room x to room y, where x and y are unique. This will be the longest phase as it involves hard-coding the shortest path from every room to any other room. 
+Phase 7: Allowing functionality to find the nearest bathroom from a starting destination. Bathrooms should be a class that inherit from room. We want to also think about labelling water fountains on the map.
