@@ -1,4 +1,5 @@
 Phases:
+
 Phase 0: Photoshop all the images of the floor plans to our liking: bathrooms and stairwells are labeled, and rooms are clearly indicated in the floor plan.
 Phase 1: Start with a main menu and implement user input
 Phase 2: Get the images of the floors working in a slideshow fashion. At this phase we’ll have dots at the bottom of the screen for each “slide” and roomIDs displaying. The dots and roomIDs should rotate when the user rotates their device.
